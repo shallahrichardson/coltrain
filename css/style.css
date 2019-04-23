@@ -1,0 +1,25 @@
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color:red;
+    grid-gap:10px;
+}
+
+.title{
+    grid-column: 1/ -1; 
+    text-align:center;
+}
+
+.icon{
+    grid-column: 1/-1;
+     text-align:center;
+}
+
+.img-div{
+    grid-column:1/-1;
+}
+
+.tribute-info{
+    grid-column: 2/-1;
+}
